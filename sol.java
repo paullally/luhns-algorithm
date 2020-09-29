@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class sol {
     public static void main(String args[] ) throws Exception {
         Scanner myscanner = new Scanner(System.in);
         String input = myscanner.nextLine();
