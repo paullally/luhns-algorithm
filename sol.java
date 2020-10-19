@@ -7,7 +7,7 @@ public class sol {
         int total = 0;
         for(int i=input.length()-1;i>=0;i--){
             int digit=Integer.parseInt(""+input.charAt(i));
-            if((input.length()-1-i)%2==1){
+            if(i%2==1){
                 digit=digit*2;
                 if(digit>9){
                     digit=digit-9;
